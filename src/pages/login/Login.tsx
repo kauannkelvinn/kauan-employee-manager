@@ -34,7 +34,7 @@ export default function Login() {
     return (
         <Container >
             <LoginCard>
-                <Logo src="/public/logokauan.svg" alt="Kauan Systems" />
+                <Logo src="/public/logokauan.png" alt="Kauan Systems" />
                 <Title>Bem vindo</Title>
                 <Subtitle>Faça login para acessar o painel</Subtitle>
 
