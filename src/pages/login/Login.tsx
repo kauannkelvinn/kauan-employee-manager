@@ -11,6 +11,7 @@ import { auth } from '../../services/firebase/firebase';
 import { signInWithEmailAndPassword } from 'firebase/auth';
 import { Button } from '../../components/Button/Button';
 import { useNavigate } from 'react-router-dom';
+import logo from "../../../public/logokauan.png"
 
 
 export default function Login() {
@@ -34,7 +35,7 @@ export default function Login() {
     return (
         <Container >
             <LoginCard>
-                <Logo src="/public/logokauan.png" alt="Kauan Systems" />
+                <Logo src={logo }alt="Kauan Systems" />
                 <Title>Bem vindo</Title>
                 <Subtitle>Faça login para acessar o painel</Subtitle>
 
